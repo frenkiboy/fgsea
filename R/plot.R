@@ -76,8 +76,6 @@ plotGseaTable <- function(pathways, stats, fgseaRes,
                            expand=c(0, 0)) +
         xlab(NULL) + ylab(NULL) +
         theme(panel.background = element_blank(),
-              axis.line=element_blank(),
-              axis.text.y=element_blank(),
               axis.ticks.y=element_blank(),
               panel.grid = element_blank(),
               axis.title=element_blank(),
@@ -152,4 +150,3 @@ plotEnrichment <- function(pathway, stats,
         labs(x="rank", y="enrichment score")
     g
 }
-
